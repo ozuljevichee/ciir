@@ -1,0 +1,16 @@
+{
+  "name": "patagonia-circular",
+  "compatibility_date": "2026-07-31",
+  "main": "./dist/_worker.js",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "patagonia-circular-db",
+      "database_id": "ea428d5e-3441-4193-a48f-eb340d6037db"
+    }
+  ]
+}
